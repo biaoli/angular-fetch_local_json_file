@@ -17,11 +17,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+
+    "resolveJsonModule": true, 
+    "esModuleInterop": true,
+    
   },
   "angularCompilerOptions": {
     "enableIvy": true,
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
+
+    "resolveJsonModule": true, 
+    "esModuleInterop": true,
+
+
   }
 }
