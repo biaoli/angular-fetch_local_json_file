@@ -1,4 +1,16 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<table>
+  <thead>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Gender</th>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let i of students">
+      <td>{{  i.id }}</td>
+      <td>{{  i.name }}</td>
+      <td>{{  i.email }}</td>
+      <td>{{  i.gender }}</td>
+    </tr>
+  </tbody>
+</table>
