@@ -13,8 +13,6 @@ interface Student {
   templateUrl: './app.component.html',  
   styleUrls: [ './app.component.css' ]  
 })  
-export class AppComponent  {  
-  name = 'Angular';  
-    
-  students: Student[] = studentsData;  
+export class AppComponent  {      
+  jsonData: Student[] = studentsData;  
 }  
